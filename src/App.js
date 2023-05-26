@@ -49,7 +49,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Docker: testing exercise 3.2</h1>
+      <h1>DevOps with Docker: testing exercise 3.2</h1>
       {courses.map(course => <Course key={course.id} course={course} />)}
     </div>
   )
